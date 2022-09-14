@@ -26,11 +26,13 @@ def rand_num(dice):
         roll = "not a dice"  
     return roll   
 x = 0
+sum_dice = []
 while x < y:          
     roll = rand_num(dice)
     print(roll)
+    sum_dice.append(roll)
+    print(sum_dice)  
     x += 1
-    sum = 0
-    for x in y:
-        sum = sum(x, )
-        print(sum)  
+    print(sum(sum_dice))
+
+
